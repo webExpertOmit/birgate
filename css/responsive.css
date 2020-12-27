@@ -1,0 +1,326 @@
+
+
+
+/*=================================================
+  Use a media query to add a breakpoint at 1024px:
+==================================================*/
+@media screen and (max-width: 1024px) {
+    body p{
+        font-size: 14px;
+    }
+    
+    /*===========================
+         Section Headding
+     ============================*/
+    .section-headding h2{
+        font-size: 26px;
+        padding-bottom: 0px;
+    }
+     .section-headding p{
+        font-size: 14px;
+    }
+    /*===========================
+          Slider Section
+     ============================*/
+    .slider-content h1{
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .slider-content p{
+        font-size: 14px;
+    }
+    .slider-content{
+        text-align: center;
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+    .our-btn{
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    /*===========================
+          Protfolio Section
+     ============================*/
+    .protfolio-area h2 {
+        font-size: 18px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .protfolio-area p{
+        margin-bottom: 8px;
+    }
+    .learn-more a {
+        font-size: 12px;
+    }
+    .protfolio-area .protfolio-icon{
+        font-size: 42px;
+    }
+    /*===========================
+          Work Section
+     ============================*/
+    .work-section h2{
+        font-size: 26px;
+        margin: 0;
+    }
+    .work-section .work-with ul li {
+        margin-bottom: 8px;
+    }
+    .work-section .our-btn {
+        margin-top: -8px;
+    }
+    /*===========================
+          Record Section
+     ============================*/
+    .record-section {
+        padding: 40px;
+    }
+    .record h1 {
+        font-size: 36px;
+        padding: 5px;
+   }
+    .record h4 {
+        font-size: 15px;
+    }
+    /*===========================
+          From Us Section
+     ============================*/
+    .from-us-section h4{
+        font-size: 16px;
+    }
+    .from-us-section .para{
+        font-size: 14px;
+    }
+    /*===========================
+          Price Section
+     ============================*/
+    .price-content h2{
+        font-size: 16px;
+    }
+    .price-content h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .price-content{
+        padding: 20px;
+    }
+    .p{
+        padding: 0px 14px;
+    }
+    .price-content ul li {
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+    /*===========================
+          Check Section
+     ============================*/
+    .check-section img {
+        max-width: 100%;
+        height: max-content;
+    }
+    .check-area {
+        padding: 40px;
+    }
+    .check-icon {
+        font-size: 40px;
+    }
+    .check-content h2{
+        font-size: 16px;
+    }
+    /*===========================
+          Team Section
+     ============================*/
+    .team-item h2{
+        font-size: 16px;
+    }
+    /*===========================
+          Project Section
+     ============================*/
+    .project-content h2{
+        font-size: 16px;
+    }
+    /*===========================
+          News Section
+     ============================*/
+    .news-area h2 {
+        font-size: 16px;
+        padding: 12px 0px;
+    }
+    .news-section a {
+        font-size: 12px;
+    }
+    
+    /*===========================
+          Footer Section
+     ============================*/
+    .top-footer-item input {
+        height: 40px;
+        padding: 10px 20px;
+    }
+    .top-footer-item .s-btn button{
+        height: 40px;
+        padding: 10px 15px;
+        left: 160px;
+    }
+    .top-footer-item h2{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .footer-bottom-item h2{
+        font-size: 16px;
+    }
+    .cont h2 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    
+}
+
+/*=================================================
+  Use a media query to add a breakpoint at 768px:
+==================================================*/
+@media screen and (max-width: 768px) {
+    /*===========================
+          Header Section
+     ============================*/
+    .top-header{
+        display: none;
+    }
+    /*===========================
+          slider Section
+     ============================*/
+    .slider-content{
+        display: none;
+    }
+    /*===========================
+          Protfolio Section
+     ============================*/
+    .protfolio-area {
+        padding: 22px 10px;
+        margin-top: 20px;
+    }
+    /*===========================
+          Work Section
+     ============================*/
+    .work-section h2{
+        margin-top: 20px;
+    }
+    /*===========================
+          From Us Section
+     ============================*/
+    .from-us-section .para {
+        margin-bottom: 30px;
+    }
+    
+    /*===========================
+          Check Section
+     ============================*/
+    .check-section img{
+        height: 400px;
+        width: 100%;
+    }
+    .check-area{
+        padding: 50px;
+    }
+    
+    /*===========================
+          Team Section
+     ============================*/
+    .card{
+        margin-top: 30px;
+    }
+    /*===========================
+          Footer Section
+     ============================*/
+    .top-footer-item{
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .top-footer-item h2 {
+        margin-bottom: 5px;
+    }
+    .top-footer-area{
+        bottom: 0;
+    }
+    .nav-bar-nav{
+        justify-content: center;
+        margin-top: 10px;
+        display: block;
+        background: #f1f1f1;
+    }
+    .nav-bar-nav li{
+        text-align: center;
+    }
+    .ser{
+        display: none;
+    }
+    .top-footer-item .s-btn button{
+        left: 380px;
+    }
+    .footer-bottom{
+        padding-top: 0px;
+    }
+    .footer-bottom-item{
+        padding: 20px 0px;;
+    }
+    .cont{
+        margin-top: 10px;
+    }
+    .date{
+        margin-top: 10px;
+    }
+    .p-copy{
+        text-align: center;
+    }
+    .copy-right ul{
+        justify-content: center;
+    }
+}
+/*=================================================
+  Use a media query to add a breakpoint at 426px:
+==================================================*/
+@media screen and (max-width: 600px){
+	.top{
+    width: 0px;
+    height: 0px;
+    background: #111;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    line-height: 2;
+    border-radius: 5px;
+    transition: .5s;
+}
+}
+	
+@media screen and (max-width: 426px) {
+    .section-headding {
+        width:100%;
+    }
+    .top{
+        display: none;
+    }
+    .top-footer-item .s-btn button{
+        left: 220px;
+    }
+    .price-content{
+        margin-top: 20px;
+    }
+    .nav{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
